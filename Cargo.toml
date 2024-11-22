@@ -1,0 +1,13 @@
+[package]
+name = "aleph_web_client"
+version = "0.1.0"
+edition = "2021"
+license-file="LICENSE"
+repository="https://github.com/aleph-lang/aleph_web_client"
+description="Web client implementation of aleph_ollama."
+
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
